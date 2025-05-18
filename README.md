@@ -74,3 +74,18 @@ This is a simulated trading platform and does not use real cryptocurrencies or f
 
 📬 Feedback & Contributions
 If you have suggestions, new language translations, or want to improve features — feel free to open issues or submit a pull request!
+
+🧠 Object-Oriented Design The RideGuard application implements the 4 fundamental principles of Object-Oriented Programming (OOP):
+
+Encapsulation
+Classes jaise User, Incident, aur Feedback mein data aur unke related methods ko encapsulate kiya gaya hai.
+Private variables aur methods ka istemal karke data ko unauthorized access se mehfooz rakha gaya hai.
+Inheritance
+AdminUser class ko User class se inherit kiya gaya hai, jisse admin users ko additional privileges milte hain.
+Is se code reuse hota hai aur hierarchy create hoti hai.
+Polymorphism
+display() method ko Incident aur Feedback classes mein alag tareeqon se implement kiya gaya hai.
+Is se ek hi method ka different contexts mein different behavior hota hai.
+Abstraction
+AuthService aur MapService jaise services mein internal complexities ko chhupa kar sirf essential features expose kiye gaye hain.
+Is se user ko sirf zaroori information milti hai, jo system ko simplify karti hai.
